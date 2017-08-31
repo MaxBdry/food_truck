@@ -5,7 +5,7 @@ h1 {
 }
 
 body {
-	background-image: url("images/grid.jpg");
+	background-image: url("images/background/grid.jpg");
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -14,16 +14,42 @@ a {
 	font-size: 24px;
 }
 
-#container {
-margin-left: 100px;
-margin-right: 100px;
-padding: 50px;
+
+#footer{
+	background-color: black;
+	color: #aaaaaa;
+	padding-top: 3em;
+	padding-bottom: 3em;
+
 }
 
-#teaser {
-border: 1px solid #555;
-padding: 50px;
-text-align: center;
-background-color: white;
+#footer a {
+	color: #aaaaaa;
+}
 
+#footer a:hover {
+	color: #dddddd;
+	font-size: 30px;
+}
+
+#wrapper {
+	background-image: url("images/background/222.jpg");
+	height: 550px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 150px;
+	color: white;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
+
+
+}
+
+#wrapper h1{
+	font-size: 71px;
+}
+
+#wrapper h2{
+	font-size: 24px;
+	margin-bottom: 1,5em;
 }
